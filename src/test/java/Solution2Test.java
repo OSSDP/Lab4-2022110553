@@ -56,7 +56,7 @@ public class Solution2Test {
         assertEquals("a", solution.removeDuplicateLetters("aaaa"));
 
         // 按字典序排列的字符串
-        assertEquals("abc", solution.removeDuplicateLetters("abcdef"));
+        assertEquals("abcdef", solution.removeDuplicateLetters("abcdef"));
 
         // 全部相同的重复字符
         assertEquals("a", solution.removeDuplicateLetters("aaaaaaa"));

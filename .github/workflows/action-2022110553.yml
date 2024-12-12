@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - main
-  pull_request: # 针对 PR 事件运行测试
+  pull_request:
     types: [opened, synchronize, reopened]
 
 jobs:
@@ -42,5 +42,5 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               pull_number: prNumber,
-              merge_method: 'merge' // 可选：'merge'、'squash' 或 'rebase'
+              merge_method: 'merge'
             });
