@@ -17,17 +17,5 @@
     </dependency>
   </dependencies>
 
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.9.1</version> <!-- 推荐使用较新的插件版本 -->
-        <configuration>
-          <source>11</source> <!-- 设置源代码版本为 Java 8 -->
-          <target>11</target> <!-- 设置目标字节码版本为 Java 8 -->
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
+
 </project>
